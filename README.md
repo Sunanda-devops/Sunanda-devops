@@ -14,15 +14,15 @@ I build production-oriented systems and review generated code with an engineerin
 
 ## Featured engineering work
 
-### Secure AI Code Audit Lab
+### Secure Code Review Forge
 
-[![Tests](https://img.shields.io/badge/tests-16%20passing-2ea44f?style=flat-square)](https://github.com/Sunanda-devops/ai-code-audit-lab)
+[![Tests](https://img.shields.io/badge/tests-16%20passing-2ea44f?style=flat-square)](https://github.com/Sunanda-devops/secure-code-review-forge)
 
-[ai-code-audit-lab](https://github.com/Sunanda-devops/ai-code-audit-lab) is a reproducible security review lab for AI-generated backend code. It turns security concerns into explicit invariants and executable regressions across concurrent idempotency, path traversal, SSRF allowlists, and tenant authorization. Each case includes an unsafe fixture, hardened implementation, audit narrative, and CI verification.
+[secure-code-review-forge](https://github.com/Sunanda-devops/secure-code-review-forge) is a reproducible security review lab for AI-generated backend code. It turns security concerns into explicit invariants and executable regressions across concurrent idempotency, path traversal, SSRF allowlists, and tenant authorization. Each case includes an unsafe fixture, hardened implementation, audit narrative, and CI verification.
 
-### ML Leakage & Validation Benchmark
+### ML Validation Integrity Suite
 
-[ml-leakage-benchmark](https://github.com/Sunanda-devops/ml-leakage-benchmark) evaluates model-generated ML code for data leakage, invalid time-series validation, and unstable training. It includes intentionally flawed fixtures, corrected solutions, source-aware grading, deterministic reports, Docker support, and GitHub Actions.
+[ml-validation-integrity-suite](https://github.com/Sunanda-devops/ml-validation-integrity-suite) evaluates model-generated ML code for data leakage, invalid time-series validation, and unstable training. It includes intentionally flawed fixtures, corrected solutions, source-aware grading, deterministic reports, Docker support, and GitHub Actions.
 
 ### LearnFlow LMS
 
