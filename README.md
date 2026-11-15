@@ -1,46 +1,51 @@
-# Ashok M.
+# Sunanda DevOps
 
-### Backend Engineer | Python, .NET, Flask, RabbitMQ, Docker
+### Backend Engineer | Python, TypeScript, AWS, Docker, Kubernetes
 
-I build production-oriented backend systems and review AI-generated code with an adversarial eye. My work focuses on secure APIs, reliable distributed workflows, testable architecture, and the failure modes that are easy to miss in a fast code review.
+I build production-oriented systems and review generated code with an engineering and security mindset. My focus is reliable delivery: explicit boundaries, reproducible validation, observable failure modes, and documentation that helps the next person operate the system confidently.
 
-## What I work on
+## Focus areas
 
-- Production Python and .NET services
-- Flask APIs, RabbitMQ workflows, MySQL, and Docker
-- Concurrency, validation, security, and failure analysis
-- Adversarial testing for AI-generated code
-- Clear technical documentation and reproducible developer workflows
+- Python and TypeScript backend services
+- AWS, Terraform, Docker, Kubernetes, and CI/CD
+- Security review, adversarial testing, and dependency hygiene
+- Data and ML validation, reproducibility, and safe automation
+- Operational documentation and production readiness
 
-## Featured work
+## Featured engineering work
+
+### Secure AI Code Audit Lab
+
+[![Tests](https://img.shields.io/badge/tests-16%20passing-2ea44f?style=flat-square)](https://github.com/Sunanda-devops/ai-code-audit-lab)
+
+[ai-code-audit-lab](https://github.com/Sunanda-devops/ai-code-audit-lab) is a reproducible security review lab for AI-generated backend code. It turns security concerns into explicit invariants and executable regressions across concurrent idempotency, path traversal, SSRF allowlists, and tenant authorization. Each case includes an unsafe fixture, hardened implementation, audit narrative, and CI verification.
 
 ### ML Leakage & Validation Benchmark
 
-[![Tests](https://img.shields.io/badge/tests-10%20passing-2ea44f?style=flat-square)](https://github.com/Ashokm96/ml-leakage-benchmark)
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://github.com/Ashokm96/ml-leakage-benchmark)
+[ml-leakage-benchmark](https://github.com/Sunanda-devops/ml-leakage-benchmark) evaluates model-generated ML code for data leakage, invalid time-series validation, and unstable training. It includes intentionally flawed fixtures, corrected solutions, source-aware grading, deterministic reports, Docker support, and GitHub Actions.
 
-[ml-leakage-benchmark](https://github.com/Ashokm96/ml-leakage-benchmark) is a deterministic, adversarial benchmark for model-generated ML code. It detects data leakage, invalid time-series validation, and unstable or irreproducible training through both source-aware graders and runtime checks. It includes intentionally flawed starters, corrected solutions, pinned dependencies, Docker support, CI, architecture documentation, and JSON/Markdown report generation.
+### LearnFlow LMS
 
-### AI Code Audit Lab
+[learnflow-LMS](https://github.com/Sunanda-devops/learnflow-LMS) is a full-stack learning platform built with React, Express, tRPC, Drizzle, and MySQL. It includes a learner dashboard, course catalog, lesson player, authenticated progress tracking, admin metrics, seed data, Docker Compose, architecture documentation, and a production-ready README.
 
-[ai-code-audit-lab](https://github.com/Ashokm96/ai-code-audit-lab) documents three realistic AI-generated failures: a race condition, SQL injection paired with a fake test pass, and a hallucinated package. Each audit includes evidence, severity, reasoning quality, a corrected patch, and a regression test.
+### DevOps production readiness lab
 
-### Secure LMS Platform
+[devops-production-readiness-lab](https://github.com/Sunanda-devops/devops-production-readiness-lab) documents practical production-readiness, security, CI/CD, and DevOps controls for real delivery environments.
 
-[LMS](https://github.com/Ashokm96/LMS) is a .NET and Angular learning platform with environment-based configuration, fail-fast validation, Docker Compose, a `/health` endpoint, CI build checks, vulnerability scanning, Gitleaks, and a security review.
+### Cloud-native delivery projects
 
-### EuniMart services
-
-[task-eunimart](https://github.com/Ashokm96/task-eunimart) is a production-oriented Flask, RabbitMQ, and MySQL service with an application factory, pure testable functions, six tests, Docker Compose, and CI using pytest, Black, Flake8, and Bandit.
+- [ct-aws-docker-k8s](https://github.com/Sunanda-devops/ct-aws-docker-k8s) — AWS, Terraform, Docker, EKS, Helm, Jenkins, monitoring, Route 53, ACM, and RDS.
+- [jenkins-terraform-aws-eks-cicd-pipeline-project](https://github.com/Sunanda-devops/jenkins-terraform-aws-eks-cicd-pipeline-project) — automated build, test, containerization, and cloud deployment.
+- [devops-portfolio](https://github.com/Sunanda-devops/devops-portfolio) — selected work across CI/CD, AWS, Terraform, Docker, Kubernetes, and observability.
 
 ## Engineering principles
 
-- Prefer explicit boundaries over hidden coupling.
-- Treat validation as part of the feature, not a final step.
-- Make failure modes observable and reproducible.
-- Keep security and operational behavior close to the code that needs it.
-- Document the reasoning behind a fix so the next reviewer can verify it.
+- Make the security invariant explicit before choosing an implementation.
+- Prefer a failing regression test over a confident explanation.
+- Treat reproducibility as a feature of both code and operations.
+- Keep deployment, configuration, and troubleshooting paths documented.
+- Design for the failure mode that production will eventually exercise.
 
-## Contact
+## Collaboration
 
-Open an issue or discussion in one of the repositories above for technical collaboration, code review, or benchmark ideas.
+Open an issue or discussion in one of the repositories above for technical collaboration, security review, or ideas for new benchmark cases.
