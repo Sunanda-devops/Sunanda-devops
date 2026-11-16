@@ -48,14 +48,6 @@ Software engineer focused on making engineering quality measurable. I design rea
 
 [learnflow-LMS](https://github.com/Sunanda-devops/learnflow-LMS) is a production-minded learning platform with a learner dashboard, searchable course library, lesson player, authenticated progress tracking, admin metrics, seed data, Docker Compose, architecture documentation, and troubleshooting guidance.
 
-### Cloud-native delivery and platform engineering
-
-- [devops-portfolio](https://github.com/Sunanda-devops/devops-portfolio) — CI/CD, Terraform, AWS, Docker, Kubernetes, serverless, monitoring, and logging reference projects.
-- [devops-production-readiness-lab](https://github.com/Sunanda-devops/devops-production-readiness-lab) — Flask health service, secure containers, EKS infrastructure, CI quality gates, Gitleaks, and Trivy.
-- [ct-aws-docker-k8s](https://github.com/Sunanda-devops/ct-aws-docker-k8s) — Terraform, Docker, EKS, Helm, Jenkins, SonarQube, Trivy, Prometheus, Grafana, Route 53, ACM, and RDS.
-- [jenkins-terraform-aws-eks-cicd-pipeline-project](https://github.com/Sunanda-devops/jenkins-terraform-aws-eks-cicd-pipeline-project) — FastAPI, PostgreSQL, Docker Compose, Jenkins, Terraform, Kubernetes, EKS, and monitoring.
-- [End-to-End-DevOps-Project](https://github.com/Sunanda-devops/End-to-End-DevOps-Project) — AWS infrastructure, Jenkins CI, ArgoCD GitOps, EKS, EFS, ALB, Prometheus, and Grafana.
-
 ## Engineering and review standard
 
 - Define what must be true before choosing how to implement it.
