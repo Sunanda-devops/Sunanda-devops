@@ -6,7 +6,7 @@
 
 ## Professional summary
 
-Software engineer focused on making engineering quality measurable. I design realistic technical tasks, red-team plausible implementations, define explicit acceptance criteria, and turn failures into regression tests and clear remediation guidance. My GitHub portfolio combines production-oriented application work with independent benchmarks for security, correctness, and reproducibility.
+Software engineer focused on making engineering quality measurable. I design realistic technical tasks, red-team plausible implementations, define explicit acceptance criteria, and turn failures into regression tests and clear remediation guidance. My engineering work combines production-oriented application development with independent benchmarks for security, correctness, and reproducibility.
 
 ## Core skills
 
