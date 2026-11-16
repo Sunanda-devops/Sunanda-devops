@@ -1,49 +1,70 @@
 # Sunanda DevOps
 
-### Software Engineer | Coding-Agent Evaluation | Python · TypeScript · AWS · Docker
+### Software Engineer | Cloud Delivery, Platform Engineering & Coding-Agent Evaluation
 
-I build production-oriented systems and evaluate generated code with an engineering and security mindset. My strongest work sits where software engineering judgment becomes measurable: realistic task design, adversarial review, executable regression tests, explicit rubrics, reproducible results, and clear technical feedback.
+**5+ years of hands-on experience** building, automating, securing, and documenting software delivery systems. I work across Python and TypeScript backends, AWS infrastructure, containers, Kubernetes, CI/CD, observability, and adversarial evaluation of generated code.
 
-## What I bring to agentic coding environments
+## Professional summary
 
-- Design realistic engineering tasks from concurrency, security, data, and operational failure modes.
-- Red-team plausible implementations instead of accepting a green test signal at face value.
-- Turn review judgment into security invariants, acceptance criteria, and regression suites.
-- Compare unsafe and hardened implementations with deterministic, machine-readable reports.
-- Document the reasoning flaw, evidence, remediation, and remaining operational caveats.
-- Work independently with Python and TypeScript while keeping CI, Docker, and deployment behavior reproducible.
+Software engineer focused on making engineering quality measurable. I design realistic technical tasks, red-team plausible implementations, define explicit acceptance criteria, and turn failures into regression tests and clear remediation guidance. My GitHub portfolio combines production-oriented application work with independent benchmarks for security, correctness, and reproducibility.
 
-## Selected evidence
+## Core skills
 
-### Secure Code Review Forge
+**Languages:** Python, TypeScript, JavaScript, Bash, HCL/Terraform
 
-[![Tests](https://img.shields.io/badge/tests-16%20passing-2ea44f?style=flat-square)](https://github.com/Sunanda-devops/secure-code-review-forge)
+**Backend & application:** Flask, FastAPI, Express, React, tRPC, REST APIs, MySQL, PostgreSQL, Redis
 
-[secure-code-review-forge](https://github.com/Sunanda-devops/secure-code-review-forge) is an independent security review environment for generated backend code. Four cases cover concurrent idempotency, path traversal, SSRF allowlists, and tenant authorization. Each case includes an unsafe fixture, threat model, security invariant, hardened implementation, audit narrative, and regression tests. A catalog CLI produces text, Markdown, or JSON evidence for review workflows.
+**Cloud & infrastructure:** AWS, EKS, EC2, RDS, S3, Lambda, API Gateway, DynamoDB, Terraform, Ansible
 
-### ML Validation Integrity Suite
+**Containers & orchestration:** Docker, Docker Compose, Kubernetes, Helm, Kustomize, ECR, GitOps
 
-[ml-validation-integrity-suite](https://github.com/Sunanda-devops/ml-validation-integrity-suite) is a deterministic benchmark for model-generated ML code. It tests leakage-safe preprocessing, time-aware validation, and stable training through adversarial source checks, runtime scoring, repeatability checks, a documented rubric, and CI-generated reports.
+**CI/CD & security:** Jenkins, GitHub Actions, Trivy, Bandit, Gitleaks, dependency hygiene, secret-safe configuration
 
-### LearnFlow LMS
+**Observability:** Prometheus, Grafana, Alertmanager, CloudWatch, Splunk, structured logging, health checks
 
-[learnflow-LMS](https://github.com/Sunanda-devops/learnflow-LMS) is a full-stack learning platform built with React, Express, tRPC, Drizzle, and MySQL. It demonstrates real feature implementation, authenticated progress tracking, seed data, Docker Compose, architecture documentation, and production-oriented troubleshooting.
+**Evaluation focus:** coding-agent task design, adversarial review, threat modeling, security invariants, regression testing, rubrics, deterministic reports, technical writing
 
-### DevOps and cloud delivery
+## Featured engineering evidence
 
-- [devops-production-readiness-lab](https://github.com/Sunanda-devops/devops-production-readiness-lab) — production-readiness, security, CI/CD, and operational controls.
-- [ct-aws-docker-k8s](https://github.com/Sunanda-devops/ct-aws-docker-k8s) — AWS, Terraform, Docker, EKS, Helm, Jenkins, monitoring, Route 53, ACM, and RDS.
-- [jenkins-terraform-aws-eks-cicd-pipeline-project](https://github.com/Sunanda-devops/jenkins-terraform-aws-eks-cicd-pipeline-project) — automated build, test, containerization, and cloud delivery.
-- [devops-portfolio](https://github.com/Sunanda-devops/devops-portfolio) — selected work across CI/CD, AWS, Terraform, Docker, Kubernetes, and observability.
+### Secure Code Review Forge — Python, Security, Testing
 
-## Review standard
+[secure-code-review-forge](https://github.com/Sunanda-devops/secure-code-review-forge) is an independent review environment for generated backend code.
+
+- Four audit cases cover concurrent idempotency, path traversal, SSRF allowlists, and tenant authorization.
+- Each case includes an unsafe fixture, threat model, security invariant, hardened implementation, audit narrative, and regression tests.
+- A catalog CLI produces text, Markdown, and JSON evidence for review workflows.
+- CI verifies **16 regression tests**.
+
+### ML Validation Integrity Suite — Python, Benchmarking, Reproducibility
+
+[ml-validation-integrity-suite](https://github.com/Sunanda-devops/ml-validation-integrity-suite) is a deterministic benchmark for model-generated ML code.
+
+- Tests leakage-safe preprocessing, time-aware validation, and stable training.
+- Combines adversarial source checks, runtime scoring, repeatability checks, and an explicit evaluation rubric.
+- Generates machine-readable and Markdown reports for CI and model comparison.
+- CI verifies **10 tests** and repeatable scores.
+
+### LearnFlow LMS — TypeScript, React, Express, MySQL
+
+[learnflow-LMS](https://github.com/Sunanda-devops/learnflow-LMS) is a production-minded learning platform with a learner dashboard, searchable course library, lesson player, authenticated progress tracking, admin metrics, seed data, Docker Compose, architecture documentation, and troubleshooting guidance.
+
+### Cloud-native delivery and platform engineering
+
+- [devops-portfolio](https://github.com/Sunanda-devops/devops-portfolio) — CI/CD, Terraform, AWS, Docker, Kubernetes, serverless, monitoring, and logging reference projects.
+- [devops-production-readiness-lab](https://github.com/Sunanda-devops/devops-production-readiness-lab) — Flask health service, secure containers, EKS infrastructure, CI quality gates, Gitleaks, and Trivy.
+- [ct-aws-docker-k8s](https://github.com/Sunanda-devops/ct-aws-docker-k8s) — Terraform, Docker, EKS, Helm, Jenkins, SonarQube, Trivy, Prometheus, Grafana, Route 53, ACM, and RDS.
+- [jenkins-terraform-aws-eks-cicd-pipeline-project](https://github.com/Sunanda-devops/jenkins-terraform-aws-eks-cicd-pipeline-project) — FastAPI, PostgreSQL, Docker Compose, Jenkins, Terraform, Kubernetes, EKS, and monitoring.
+- [End-to-End-DevOps-Project](https://github.com/Sunanda-devops/End-to-End-DevOps-Project) — AWS infrastructure, Jenkins CI, ArgoCD GitOps, EKS, EFS, ALB, Prometheus, and Grafana.
+
+## Engineering and review standard
 
 - Define what must be true before choosing how to implement it.
 - Test the dangerous path, not only the happy-path return value.
-- Treat reproducibility and observability as part of correctness.
 - Separate evidence from explanation and confidence from proof.
+- Treat reproducibility, observability, and safe configuration as part of correctness.
 - Prefer a small, reviewable fix with a regression test over a broad rewrite.
+- Document the failure, the reasoning flaw, the remediation, and the remaining caveats.
 
 ## Collaboration
 
-Open an issue or discussion in one of the repositories above for technical collaboration, benchmark ideas, security review, or reproducibility feedback.
+Open an issue or discussion in one of the repositories above for technical collaboration, coding-agent benchmark ideas, security review, or reproducibility feedback.
